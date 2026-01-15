@@ -1,2 +1,63 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/forms';
+
+@theme {
+	--color-bg-dark: oklch(0.15 0.05 265);
+	--color-bg: oklch(0.2 0.05 265);
+	--color-bg-light: oklch(0.25 0.05 265);
+	--color-text: oklch(0.85 0.1 280);
+	--color-text-muted: oklch(0.65 0.1 280);
+	--color-highlight: oklch(0.5 0.1 265);
+
+	--color-border: oklch(0.4 0.1 280);
+	--color-border-muted: oklch(0.3 0.1 280);
+
+	--color-primary: oklch(0.5 0.1 280);
+	--color-primary-text: oklch(0.95 0.05 280);
+	--color-primary-highlight: oklch(0.55 0.1 280);
+
+	--color-secondary: oklch(0.5 0.1 220);
+	--color-secondary-text: oklch(0.95 0.05 220);
+	--color-secondary-highlight: oklch(0.55 0.1 220);
+
+	--color-danger: oklch(0.5 0.1 30);
+	--color-danger-text: oklch(0.95 0.05 30);
+	--color-danger-highlight: oklch(0.55 0.1 30);
+
+	--color-warning: oklch(0.5 0.1 100);
+	--color-warning-text: oklch(0.95 0.05 100);
+	--color-warning-highlight: oklch(0.55 0.1 100);
+
+	--color-success: oklch(0.5 0.1 160);
+	--color-success-text: oklch(0.95 0.05 160);
+	--color-success-highlight: oklch(0.55 0.1 160);
+
+	--color-info: oklch(0.5 0.1 260);
+	--color-info-text: oklch(0.95 0.05 260);
+	--color-info-highlight: oklch(0.55 0.1 260);
+
+	--color-shadow: oklch(0.3 0 0);
+	--color-outline: oklch(0.7 0.1 280);
+
+	--default-transition-duration: 300ms;
+}
+
+@layer base {
+	* {
+		@apply border-border shadow-black/25 outline-primary;
+	}
+
+	body {
+		@apply bg-bg-dark text-text;
+	}
+
+	a,
+	button {
+		@apply cursor-pointer outline-offset-2 focus:outline-2;
+	}
+
+	input,
+	textarea,
+	select {
+		@apply rounded-lg border bg-bg-light px-3 py-2 outline-offset-2 focus:outline-2;
+	}
+}
