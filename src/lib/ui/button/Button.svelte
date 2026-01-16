@@ -1,31 +1,29 @@
 <script lang="ts">
-	import { Button } from 'bits-ui';
+	import { Button, type ButtonRootProps } from 'bits-ui';
 	import type { Snippet } from 'svelte';
-	import type { ClassValue, HTMLButtonAttributes } from 'svelte/elements';
+	import type { ClassValue } from 'svelte/elements';
 
 	type Props = {
 		children?: Snippet;
 		class?: ClassValue;
-		color?: 'primary' | 'secondary';
+		color?: 'bg' | 'primary' | 'secondary';
 		variant?: 'filled' | 'text';
-	} & HTMLButtonAttributes;
+	} & ButtonRootProps;
 
-	let {
-		children,
-		class: classProp,
-		color = 'primary',
-		variant = 'filled',
-		...rest
-	}: Props = $props();
+	let { children, class: classProp, color = 'bg', variant = 'filled', ...rest }: Props = $props();
 
 	const classSets = {
+		bg: {
+			filled: 'bg-bg border text-text hover:bg-bg-light',
+			text: 'hover:bg-bg-light'
+		},
 		primary: {
-			filled: 'bg-primary text-primary-text hover:bg-primary-highlight',
-			text: 'hover:bg-primary/50 hover:text-primary-text'
+			filled: 'bg-primary border text-primary-text hover:bg-primary-highlight',
+			text: 'hover:bg-primary/50'
 		},
 		secondary: {
-			filled: 'bg-secondary text-secondary-text hover:bg-secondary-highlight',
-			text: 'hover:bg-secondary/50 hover:text-secondary-text'
+			filled: 'bg-secondary border text-secondary-text hover:bg-secondary-highlight',
+			text: 'hover:bg-secondary/50'
 		}
 	};
 </script>
