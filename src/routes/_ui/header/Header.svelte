@@ -6,10 +6,10 @@
 	let isOpen = $state(false);
 </script>
 
-<header class="sticky top-0 border-b bg-bg-dark/90 backdrop-blur-xs">
-	<div class="container mx-auto">
-		<div class="flex items-center justify-between gap-4 px-4 py-2">
-			<a href="/" class="text-lg font-bold">MY</a>
+<header class="sticky top-0 z-50 border-b bg-bg-dark/90 backdrop-blur-xs">
+	<div class="container">
+		<div class="flex items-center justify-between gap-4 py-2">
+			<a href="/" class="text-xl font-bold tracking-wide text-secondary">Marvin Yang</a>
 
 			<Button
 				variant="text"
@@ -38,7 +38,7 @@
 		</div>
 
 		{#if isOpen}
-			<nav class="block border-t px-4 py-2 transition-all sm:hidden">
+			<nav class="block border-t py-2 transition-all sm:hidden">
 				<NavigationMenu.Root>
 					<NavigationMenu.List class="flex flex-col">
 						<NavigationMenu.Item>

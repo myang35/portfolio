@@ -6,7 +6,7 @@
 
 <div>
 	<section class="bg-linear-to-b from-bg via-bg-light to-bg-dark">
-		<div class="container mx-auto grid gap-8 px-4 py-16 md:grid-cols-2">
+		<div class="container grid gap-8 py-16 md:grid-cols-2">
 			<div class="mx-auto flex flex-col justify-center gap-8">
 				<div class="flex flex-col gap-4">
 					<h1 class="text-4xl font-bold">Hi, I'm Marvin</h1>
@@ -16,7 +16,7 @@
 						TypeScript, and I enjoy working on projects where usability and clarity matter.
 					</p>
 				</div>
-				<div class="flex gap-8">
+				<div class="flex flex-col gap-4 sm:flex-row sm:gap-8">
 					<Button
 						href="/contact"
 						color="primary"
@@ -43,7 +43,7 @@
 	</section>
 
 	<section>
-		<div class="container mx-auto flex flex-col justify-center gap-6 px-4 py-16">
+		<div class="container flex flex-col justify-center gap-6 py-16">
 			<h1 class="text-center text-3xl font-bold">About Me</h1>
 			<p class="text-lg">
 				My journey started at the University of North Carolina at Charlotte where I studied Computer
@@ -63,11 +63,11 @@
 	</section>
 
 	<section class="border-t">
-		<div class="container mx-auto flex w-fit flex-col gap-8 px-4 py-16">
+		<div class="container flex w-fit flex-col gap-8 py-16">
 			<h1 class="text-center text-3xl font-bold">Skills & Technologies</h1>
 			<div class="flex flex-col gap-4">
 				<h2 class="text-xl font-bold">Frontend Development</h2>
-				<div class="flex gap-4">
+				<div class="flex flex-wrap gap-4">
 					<SkillBadge>SvelteKit</SkillBadge>
 					<SkillBadge>Svelte</SkillBadge>
 					<SkillBadge>Angular</SkillBadge>
@@ -81,7 +81,7 @@
 			</div>
 			<div class="flex flex-col gap-4">
 				<h2 class="text-xl font-bold">Backend Development</h2>
-				<div class="flex gap-4">
+				<div class="flex flex-wrap gap-4">
 					<SkillBadge>Node.js</SkillBadge>
 					<SkillBadge>Express.js</SkillBadge>
 					<SkillBadge>Spring Boot</SkillBadge>
@@ -93,7 +93,7 @@
 			</div>
 			<div class="flex flex-col gap-4">
 				<h2 class="text-xl font-bold">Tools & Platforms</h2>
-				<div class="flex gap-4">
+				<div class="flex flex-wrap gap-4">
 					<SkillBadge>Git</SkillBadge>
 					<SkillBadge>GitHub</SkillBadge>
 					<SkillBadge>Jest</SkillBadge>
