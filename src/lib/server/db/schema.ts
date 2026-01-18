@@ -1,3 +1,10 @@
-import { pgTable, serial, integer } from 'drizzle-orm/pg-core';
+import { pgTable, serial, text } from 'drizzle-orm/pg-core';
 
-export const user = pgTable('user', { id: serial('id').primaryKey(), age: integer('age') });
+export const project = pgTable('project', {
+	id: serial('id').primaryKey(),
+	title: text('title').notNull(),
+	description: text('description').default('').notNull(),
+	githubUrl: text('github_url').default('').notNull(),
+	websiteUrl: text('websiteUrl').default('').notNull(),
+	technologies: text('technologies').array().default([]).notNull()
+});
