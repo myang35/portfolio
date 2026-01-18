@@ -4,9 +4,9 @@
 	type Props = {
 		title: string;
 		description: string;
-		technologies: string[];
 		githubUrl: string;
 		websiteUrl: string;
+		technologies: string[];
 	};
 
 	let { title, description, technologies, githubUrl, websiteUrl }: Props = $props();
