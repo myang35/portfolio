@@ -11,12 +11,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint .",
-		"db:start": "docker compose up",
-		"db:push": "drizzle-kit push",
-		"db:generate": "drizzle-kit generate",
-		"db:migrate": "drizzle-kit migrate",
-		"db:studio": "drizzle-kit studio"
+		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.0",
@@ -31,8 +26,6 @@
 		"@tailwindcss/vite": "^4.1.17",
 		"@types/node": "^22",
 		"bits-ui": "^2.15.4",
-		"drizzle-kit": "^0.31.8",
-		"drizzle-orm": "^0.45.0",
 		"eslint": "^9.39.1",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.13.1",
@@ -48,7 +41,5 @@
 		"vite": "^7.2.6",
 		"vite-plugin-devtools-json": "^1.0.0"
 	},
-	"dependencies": {
-		"postgres": "^3.4.7"
-	}
+	"dependencies": {}
 }
