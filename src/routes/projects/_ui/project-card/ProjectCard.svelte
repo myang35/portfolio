@@ -6,9 +6,10 @@
 		description: string;
 		technologies: string[];
 		githubUrl: string;
+		websiteUrl: string;
 	};
 
-	let { title, description, technologies, githubUrl }: Props = $props();
+	let { title, description, technologies, githubUrl, websiteUrl }: Props = $props();
 </script>
 
 <div class="flex flex-col gap-4 rounded-lg border bg-bg p-8 shadow-lg">
@@ -25,5 +26,12 @@
 	>
 		<span class="icon-[mdi--github] text-2xl"></span>
 		<span>View on GitHub</span>
+	</a>
+	<a
+		href={websiteUrl}
+		class="flex items-center gap-2 text-secondary transition-colors hover:text-secondary-highlight"
+	>
+		<span class="icon-[mdi--web] text-2xl"></span>
+		<span class="break-all">{websiteUrl}</span>
 	</a>
 </div>
