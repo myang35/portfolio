@@ -3,7 +3,7 @@
 
 <footer class="border-t bg-bg">
 	<div class="container">
-		<div class="grid grid-cols-4 gap-8 py-16">
+		<div class="grid grid-cols-2 gap-8 py-16 sm:grid-cols-4">
 			<div class="col-span-2 flex flex-col gap-4">
 				<h1 class="text-xl font-bold tracking-wide text-secondary">Marvin Yang</h1>
 				<p class="text-text-muted">
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 
-		<div class="border-t border-border-muted py-8">
+		<div class="container border-t border-border-muted py-8">
 			<p class="text-center text-text-muted">© 2024 Marvin Yang. All rights reserved.</p>
 		</div>
 	</div>
