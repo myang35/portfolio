@@ -32,6 +32,6 @@
 		class="flex items-center gap-2 text-secondary transition-colors hover:text-secondary-highlight"
 	>
 		<span class="icon-[mdi--web] text-2xl"></span>
-		<span class="break-all">{websiteUrl}</span>
+		<span class="break-all">Visit Website</span>
 	</a>
 </div>
