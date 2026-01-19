@@ -43,7 +43,7 @@
 	</section>
 
 	<section>
-		<div class="container flex flex-col justify-center gap-6 py-16">
+		<div class="container flex flex-col justify-center gap-6 pb-16">
 			<h1 class="text-center text-3xl font-bold">About Me</h1>
 			<p class="text-lg">
 				My journey started at the University of North Carolina at Charlotte where I studied Computer
