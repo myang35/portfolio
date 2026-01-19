@@ -62,7 +62,7 @@
 		</div>
 	</section>
 
-	<section class="border-t">
+	<section class="border-t border-border-muted">
 		<div class="container flex w-fit flex-col gap-8 py-16">
 			<h1 class="text-center text-3xl font-bold">Skills & Technologies</h1>
 			<div class="flex flex-col gap-4">

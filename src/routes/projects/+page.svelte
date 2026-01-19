@@ -12,7 +12,7 @@
 		</div>
 	</section>
 
-	<section class="border-t">
+	<section class="border-t border-border-muted">
 		<div class="container grid gap-8 py-16 md:grid-cols-2 xl:grid-cols-3">
 			<ProjectCard
 				title="MoRecipes"

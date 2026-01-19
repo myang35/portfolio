@@ -12,7 +12,7 @@
 	let { title, description, technologies, githubUrl, websiteUrl }: Props = $props();
 </script>
 
-<div class="flex flex-col gap-4 rounded-lg border bg-bg p-8 shadow-lg">
+<div class="flex flex-col gap-4 rounded-lg border border-border-muted bg-bg p-8 shadow-lg">
 	<h1 class="text-xl font-bold">{title}</h1>
 	<p class="text-text-muted">{description}</p>
 	<div class="flex flex-wrap gap-x-4 gap-y-2">

@@ -8,7 +8,7 @@
 		</div>
 	</section>
 
-	<section class="border-t">
+	<section class="border-t border-border-muted">
 		<div class="container mx-auto flex w-fit flex-col gap-8 py-16">
 			<div class="flex items-center gap-4">
 				<span class="icon-[mdi--email] text-2xl"></span>

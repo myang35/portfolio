@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<footer class="border-t bg-bg">
+<footer class="border-t border-border-muted bg-bg">
 	<div class="container">
 		<div class="grid grid-cols-2 gap-8 py-16 sm:grid-cols-4">
 			<div class="col-span-2 flex flex-col gap-4">
