@@ -19,6 +19,7 @@
 				<ProjectCard
 					title={project.title}
 					description={project.description}
+					imageUrl={project.imageUrl}
 					githubUrl={project.githubUrl}
 					websiteUrl={project.websiteUrl}
 					technologies={project.technologies}

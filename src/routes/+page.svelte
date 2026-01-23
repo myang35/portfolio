@@ -39,7 +39,7 @@
 				</div>
 			</div>
 
-			<img src={portrait} alt="portrait" class="mx-auto size-80 rounded-lg" />
+			<img src={portrait} alt="portrait" class="mx-auto size-80 rounded-lg shadow-lg" />
 		</div>
 	</section>
 
