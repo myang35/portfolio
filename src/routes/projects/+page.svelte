@@ -23,6 +23,7 @@
 					githubUrl={project.githubUrl}
 					websiteUrl={project.websiteUrl}
 					technologies={project.technologies}
+					tags={project.tags}
 				></ProjectCard>
 			{/each}
 		</div>
