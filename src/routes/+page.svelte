@@ -11,9 +11,10 @@
 				<div class="flex flex-col gap-4">
 					<h1 class="text-4xl font-bold">Hi, I'm Marvin</h1>
 					<p class="text-xl">
-						A software developer who enjoys turning ideas into clean, intuitive web experiences. I
-						specialize in building modern web applications with tools like Svelte, SvelteKit, and
-						TypeScript, and I enjoy working on projects where usability and clarity matter.
+						A web application developer who enjoys turning ideas into clean, intuitive web
+						experiences. I specialize in building modern web applications with tools like Svelte,
+						SvelteKit, and TypeScript, and I enjoy working on projects where usability and clarity
+						matter.
 					</p>
 				</div>
 				<div class="flex flex-col gap-4 sm:flex-row sm:gap-8">

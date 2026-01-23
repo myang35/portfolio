@@ -7,7 +7,8 @@
 			<div class="col-span-2 flex flex-col gap-4">
 				<h1 class="text-xl font-bold tracking-wide text-secondary">Marvin Yang</h1>
 				<p class="text-text-muted">
-					A software developer who enjoys turning ideas into clean, intuitive web experiences.
+					A web application developer who enjoys turning ideas into clean, intuitive web
+					experiences.
 				</p>
 			</div>
 
