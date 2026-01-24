@@ -7,7 +7,7 @@ export const projects = [
 	{
 		title: 'Portfolio',
 		description:
-			'A website that introduces who I am as a developer and showcases a selection of my side projects, skills, and experience. The goal of this project is to provide a simple, fast, and accessible way to present my work and make it easy for others to explore the projects I have built.',
+			'A website that introduces who I am as a developer and showcases a selection of my side projects, skills, and experience.',
 		imageUrl: portfolioImageUrl,
 		githubUrl: 'https://github.com/myang35/portfolio.git',
 		websiteUrl: 'https://marvinyang.com',
@@ -28,7 +28,7 @@ export const projects = [
 	{
 		title: 'Dodgeball',
 		description:
-			'A simple browser-based, two-player dodgeball game. The goal is to hit the other player with a ball while trying to dodge their balls.',
+			'A simple browser-based, two-player dodgeball game where the goal is to hit the other player with a ball while trying to dodge their balls.',
 		category: 'game',
 		imageUrl: dodgeballImageUrl,
 		githubUrl: 'https://github.com/myang35/dodgeball.git',
@@ -38,8 +38,7 @@ export const projects = [
 	},
 	{
 		title: "Devil's Hexagon",
-		description:
-			'A web game that tests your memory. Play solo or with friends on multiple devices. Have one screen host the game while everyone else joins in from their own phone or computer.',
+		description: `A game influenced from The Devil's Plan, a South Korean reality game show. This is a memory game where one screen hosts the game while everyone joins in from their own phone or computer.`,
 		category: 'game',
 		imageUrl: devilsHexagonImageUrl,
 		githubUrl: 'https://github.com/myang35/devils-hexagon.git',
