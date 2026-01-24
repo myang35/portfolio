@@ -1,13 +1,17 @@
 <script lang="ts">
 	import portrait from '$lib/assets/portrait.jpg';
 	import Button from '$lib/ui/button/Button.svelte';
+	import { fly } from 'svelte/transition';
 	import SkillBadge from './_ui/skill-badge/SkillBadge.svelte';
 </script>
 
 <div>
 	<section class="bg-linear-to-b from-bg via-bg-light to-bg-dark">
-		<div class="container grid gap-8 py-16 md:grid-cols-2">
-			<div class="mx-auto flex flex-col justify-center gap-8">
+		<div class="container grid gap-8 py-16 lg:grid-cols-2">
+			<div
+				in:fly={{ x: '-8rem', duration: 1000 }}
+				class="mx-auto flex flex-col justify-center gap-8"
+			>
 				<div class="flex flex-col gap-4">
 					<h1 class="text-4xl font-bold">Hi, I'm Marvin</h1>
 					<p class="text-xl">
@@ -39,7 +43,12 @@
 				</div>
 			</div>
 
-			<img src={portrait} alt="portrait" class="mx-auto size-80 rounded-lg shadow-lg" />
+			<img
+				src={portrait}
+				alt="portrait"
+				in:fly={{ x: '8rem', duration: 1000 }}
+				class="mx-auto max-w-96 rounded-lg shadow-lg"
+			/>
 		</div>
 	</section>
 
