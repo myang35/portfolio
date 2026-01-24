@@ -14,18 +14,25 @@
 	</section>
 
 	<section class="border-t border-border-muted">
-		<div class="container grid gap-8 py-16 md:grid-cols-2 xl:grid-cols-3">
-			{#each projects as project}
-				<ProjectCard
-					title={project.title}
-					description={project.description}
-					imageUrl={project.imageUrl}
-					githubUrl={project.githubUrl}
-					websiteUrl={project.websiteUrl}
-					technologies={project.technologies}
-					tags={project.tags}
-				></ProjectCard>
-			{/each}
+		<div class="container py-16">
+			<div class="space-y-16">
+				<div class="flex flex-col gap-4">
+					<h1 class="text-3xl font-bold">Web Apps</h1>
+					<div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+						{#each projects.webApps as project}
+							<ProjectCard {project}></ProjectCard>
+						{/each}
+					</div>
+				</div>
+				<div class="flex flex-col gap-4">
+					<h1 class="text-3xl font-bold">Games</h1>
+					<div class="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+						{#each projects.games as project}
+							<ProjectCard {project}></ProjectCard>
+						{/each}
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 </div>
