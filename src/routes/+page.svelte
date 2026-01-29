@@ -47,7 +47,7 @@
 				src={portrait}
 				alt="portrait"
 				in:fly={{ x: '8rem', duration: 1000 }}
-				class="mx-auto max-w-96 rounded-lg shadow-lg"
+				class="mx-auto w-full max-w-96 rounded-lg shadow-lg"
 			/>
 		</div>
 	</section>
